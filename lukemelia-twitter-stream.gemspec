@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{lukemelia-twitter-stream}
-  s.version = "0.1.15"
+  s.version = "0.1.16"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Vladimir Kolesnikov"]
@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ["README.markdown", "LICENSE"]
 
   s.add_runtime_dependency('eventmachine', ">= 1.0.0.beta.4")
-  s.add_runtime_dependency('simple_oauth', '~> 0.1.4')
+  s.add_runtime_dependency('simple_oauth', '~> 0.2.0')
   s.add_runtime_dependency('http_parser.rb', '~> 0.5.1')
   s.add_development_dependency('rspec', "~> 2.5.0")
 
